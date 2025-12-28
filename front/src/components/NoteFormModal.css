@@ -1,0 +1,48 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-inner-container {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    width: 50%;
+}
+
+.modal-close {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.modal-content form input {
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+}
+
+.modal-container form .ql-container {
+    height: 200px;
+}
+
+.modal-content form button {
+    margin-top: 10px;
+}
